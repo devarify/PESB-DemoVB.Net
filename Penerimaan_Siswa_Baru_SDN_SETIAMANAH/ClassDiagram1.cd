@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.MyApplication" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationEvents.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.MySettings" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAQAABAAIAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAASAAAAQgCQBgAAAACAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaDataTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DatatesDataSet.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesDataTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DatatesDataSet.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAACQAAAAAgGQJgAAgAEAAEgBBA=</HashCode>
+      <FileName>DatatesDataSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAACQAAAAAgGQJgAAgAEAAEgBBA=</HashCode>
+      <FileName>db_PSB_SetiamanahDataSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_admin" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACARQAUCAEAAAAAACAAAACgAAAAgBACEABAAAAAAg=</HashCode>
+      <FileName>Form_admin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_bantuan" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Form_bantuan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Calon_Data_Siswa" Collapsed="true">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AOkGQYEBESGsAwwWAECBEpwDNDD/4SEKCAgUEAKEREA=</HashCode>
+      <FileName>Form_Calon_Data_Siswa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Cetak_Pendaftaran" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAABgCAAAAYAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Form_Cetak_Pendaftaran.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Datates_siswa" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BNAGAAMQPKCRB6ETARGmaQoSBAAxYSgQwQhsohAERCA=</HashCode>
+      <FileName>Form_Datates_siswa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Identitas_Sekolah" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AiHQAkAECKoIAUQAACCihgCIhBwaACIAgmwIAEIQIA=</HashCode>
+      <FileName>Form_Identitas_Sekolah.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Laporan_Data_Calon_Siswa" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAKAAEVASEIAAAAAgCAIQAKACEBoCAIAAAAAEAAADI=</HashCode>
+      <FileName>Form_Laporan_Data_Calon Siswa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Laporan_Data_Siswa_Baru" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACAMAASAAAIAAAACgAQBCAAABcCwYAAQAAAQBBAA=</HashCode>
+      <FileName>Form_Laporan_Data_Siswa_Baru.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Laporan_Data_Tes_Siswa" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAEQASAQAAAAAAGgQQACAKABoAAIQAEAAgAEAAA=</HashCode>
+      <FileName>Form_Laporan_Data_Tes_Siswa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Login">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAQQgECABQAEAAACAgAACAAAAAkAQCBCQAAAAAAA=</HashCode>
+      <FileName>Form_Login.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Siswa_Baru" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEASIAEAESGEIoBIBBCAAAACCAD/oWMbBAQERAEABGk=</HashCode>
+      <FileName>Form_Siswa_Baru.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_Tahun_Ajaran" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAECCgABEAAAKFAgDCAIAAYSBIAAQQAgEABAA=</HashCode>
+      <FileName>Form_Tahun_Ajaran.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Form_tentang" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAASAQAAAAAACEAABCgAAAAAAAAACACAAQAAA=</HashCode>
+      <FileName>Form_tentang.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.mdi_Utama" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DSQACUwCAOpAExlJADGEgCqChBUBAVphhGgAA0SQAHw=</HashCode>
+      <FileName>mdi_Utama.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.koneksi" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABAJBAAAAAAAAAAAEAAAAAEBAIAQAAAAAAAAAA=</HashCode>
+      <FileName>Modul_koneksi_oledb.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TsekolahTableAdapter" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABEBAEBAAAAMAAgIAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.Tdata_siswaTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+      <FileName>DatatesDataSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.Tdata_siswaTableAdapter">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TdatatesTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAACAAAABABAEBAAAAMAAgAACCgAAAQAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TdatatesTableAdapter" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAACAAAABABAEBAAAAMAAgAACCgAAAQAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.SplashScreen1" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IogAAAAAACAAMAAAAACAAAAGAAAACAAAAgAAAAAEAAA=</HashCode>
+      <FileName>SplashScreen1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.MySettingsProperty" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.Module_koneksiSQL" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAAAAAAAAAAEBAAEAAAAAAAAADAAAAABA=</HashCode>
+      <FileName>Module_koneksiSQL.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.Resources.Resources" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe WP Semibold" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{782B6B53-93C6-47AB-AE45-D9AC1E770059}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.MyApplication</StartupObject>
+    <RootNamespace>Penerimaan_Siswa_Baru_SDN_SETIAMANAH</RootNamespace>
+    <AssemblyName>Penerimaan_Siswa_Baru_SDN_SETIAMANAH</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Penerimaan_Siswa_Baru_SDN_SETIAMANAH.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Penerimaan_Siswa_Baru_SDN_SETIAMANAH.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Cetaktessiswa.Designer.vb">
+      <DependentUpon>Cetaktessiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cetaktessiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_laporancalonsiswa.Designer.vb">
+      <DependentUpon>form_laporancalonsiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_laporancalonsiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulir CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Formulir CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datasekolahDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datasekolahDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="datasiswabaru.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datasiswabaru.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="datasiswalulusDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datasiswalulusDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="datasiswalulusDataSet.vb">
+      <DependentUpon>datasiswalulusDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatatesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatatesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatatesDataSet.vb">
+      <DependentUpon>DatatesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_PSB_SetiamanahDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_PSB_SetiamanahDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_PSB_SetiamanahDataSet.vb">
+      <DependentUpon>db_PSB_SetiamanahDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_PSB_SetiamanahDataSettes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_PSB_SetiamanahDataSettes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formulir.Designer.vb">
+      <DependentUpon>Formulir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_bantuan.Designer.vb">
+      <DependentUpon>Form_bantuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_bantuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Calon_Data_Siswa.Designer.vb">
+      <DependentUpon>Form_Calon_Data_Siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Calon_Data_Siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Cetak_Pendaftaran.Designer.vb">
+      <DependentUpon>Form_Cetak_Pendaftaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Cetak_Pendaftaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Datates_siswa.Designer.vb">
+      <DependentUpon>Form_Datates_siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Datates_siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Identitas_Sekolah.designer.vb">
+      <DependentUpon>Form_Identitas_Sekolah.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Identitas_Sekolah.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_laporansiswabaru.Designer.vb">
+      <DependentUpon>form_laporansiswabaru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_laporansiswabaru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_laporantessiswa.Designer.vb">
+      <DependentUpon>form_laporantessiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_laporantessiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Laporan_Data_Calon Siswa.Designer.vb">
+      <DependentUpon>Form_Laporan_Data_Calon Siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Laporan_Data_Calon Siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Laporan_Data_Siswa_Baru.Designer.vb">
+      <DependentUpon>Form_Laporan_Data_Siswa_Baru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Laporan_Data_Siswa_Baru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Laporan_Data_Tes_Siswa.Designer.vb">
+      <DependentUpon>Form_Laporan_Data_Tes_Siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Laporan_Data_Tes_Siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Siswa_Baru.Designer.vb">
+      <DependentUpon>Form_Siswa_Baru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Siswa_Baru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.vb">
+      <DependentUpon>Form_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Tahun_Ajaran.Designer.vb">
+      <DependentUpon>Form_Tahun_Ajaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Tahun_Ajaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_tentang.Designer.vb">
+      <DependentUpon>Form_tentang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_tentang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_admin.Designer.vb">
+      <DependentUpon>Form_admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporancalonsiswa1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>laporancalonsiswa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="laporansiswabaru.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>laporansiswabaru.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="laporantessiswa1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>laporantessiswa1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mdi_Utama.Designer.vb">
+      <DependentUpon>mdi_Utama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mdi_Utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_koneksiSQL.vb" />
+    <Compile Include="Modul_koneksi_oledb.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tampil_data_siswa.Designer.vb">
+      <DependentUpon>tampil_data_siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tampil_data_siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampil_nopendaftar.Designer.vb">
+      <DependentUpon>Tampil_nopendaftar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tampil_nopendaftar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cetaktessiswa.resx">
+      <DependentUpon>Cetaktessiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulir CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Formulir CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulir.resx">
+      <DependentUpon>Formulir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_bantuan.resx">
+      <DependentUpon>Form_bantuan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Calon_Data_Siswa.resx">
+      <DependentUpon>Form_Calon_Data_Siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Cetak_Pendaftaran.resx">
+      <DependentUpon>Form_Cetak_Pendaftaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Datates_siswa.resx">
+      <DependentUpon>Form_Datates_siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Identitas_Sekolah.resx">
+      <DependentUpon>Form_Identitas_Sekolah.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_laporancalonsiswa.resx">
+      <DependentUpon>form_laporancalonsiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_laporansiswabaru.resx">
+      <DependentUpon>form_laporansiswabaru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_laporantessiswa.resx">
+      <DependentUpon>form_laporantessiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Laporan_Data_Calon Siswa.resx">
+      <DependentUpon>Form_Laporan_Data_Calon Siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Laporan_Data_Siswa_Baru.resx">
+      <DependentUpon>Form_Laporan_Data_Siswa_Baru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Laporan_Data_Tes_Siswa.resx">
+      <DependentUpon>Form_Laporan_Data_Tes_Siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Siswa_Baru.resx">
+      <DependentUpon>Form_Siswa_Baru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Tahun_Ajaran.resx">
+      <DependentUpon>Form_Tahun_Ajaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_tentang.resx">
+      <DependentUpon>Form_tentang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_admin.resx">
+      <DependentUpon>Form_admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporancalonsiswa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>laporancalonsiswa1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporansiswabaru.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>laporansiswabaru.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporantessiswa1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>laporantessiswa1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdi_Utama.resx">
+      <DependentUpon>mdi_Utama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportTessiswa.rdlc" />
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tampil_data_siswa.resx">
+      <DependentUpon>tampil_data_siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampil_nopendaftar.resx">
+      <DependentUpon>Tampil_nopendaftar.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="datasekolahDataSet.xsc">
+      <DependentUpon>datasekolahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasekolahDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasekolahDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="datasekolahDataSet.xss">
+      <DependentUpon>datasekolahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasiswabaru.xsc">
+      <DependentUpon>datasiswabaru.xsd</DependentUpon>
+    </None>
+    <None Include="datasiswabaru.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasiswabaru.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="datasiswabaru.xss">
+      <DependentUpon>datasiswabaru.xsd</DependentUpon>
+    </None>
+    <None Include="datasiswalulusDataSet.xsc">
+      <DependentUpon>datasiswalulusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasiswalulusDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasiswalulusDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="datasiswalulusDataSet.xss">
+      <DependentUpon>datasiswalulusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatatesDataSet.xsc">
+      <DependentUpon>DatatesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatatesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatatesDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DatatesDataSet.xss">
+      <DependentUpon>DatatesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_PSB_SetiamanahDataSet.xsc">
+      <DependentUpon>db_PSB_SetiamanahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_PSB_SetiamanahDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_PSB_SetiamanahDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_PSB_SetiamanahDataSet.xss">
+      <DependentUpon>db_PSB_SetiamanahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_PSB_SetiamanahDataSettes.xsc">
+      <DependentUpon>db_PSB_SetiamanahDataSettes.xsd</DependentUpon>
+    </None>
+    <None Include="db_PSB_SetiamanahDataSettes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_PSB_SetiamanahDataSettes.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_PSB_SetiamanahDataSettes.xss">
+      <DependentUpon>db_PSB_SetiamanahDataSettes.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Form_Calon_Data_Siswa.datasource" />
+    <None Include="My Project\DataSources\Form_Data_Tes_Siswa.datasource" />
+    <None Include="My Project\DataSources\Form_Laporan_Data_Calon_Siswa.datasource" />
+    <None Include="My Project\DataSources\Form_Laporan_Data_Siswa_Baru.datasource" />
+    <None Include="My Project\DataSources\Form_Laporan_Data_Tes_Siswa.datasource" />
+    <None Include="My Project\DataSources\Form_Siswa_Baru.datasource" />
+    <None Include="My Project\DataSources\Form_Utama.datasource" />
+    <None Include="My Project\DataSources\Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.MySettings.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

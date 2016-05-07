@@ -1,0 +1,400 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Penerimaan_Siswa_Baru_SDN_SETIAMANAH
+</name>
+</assembly>
+<members>
+<member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet.TsekolahRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TsekolahTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.UpdateAll(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasekolahDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru.Tdata_siswaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru.TsiswabaruDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru.Tdata_siswaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru.TsiswabaruRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru.Tdata_siswaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru.TsiswabaruRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.Tdata_siswaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TsiswabaruTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.UpdateInsertedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.UpdateDeletedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.UpdateAll(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaru)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswabaruTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet.Tdata_siswaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet.TdatatesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet.Tdata_siswaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet.TdatatesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet.Tdata_siswaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet.TdatatesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.Tdata_siswaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TdatatesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.UpdateAll(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.datasiswalulusDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet.Tdata_siswaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet.TdatatesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet.Tdata_siswaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet.TdatatesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet.Tdata_siswaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet.TdatatesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.Tdata_siswaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TdatatesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.UpdateAll(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes.Tdata_siswaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes.Tdata_siswaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes.Tdata_siswaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.Tdata_siswaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.UpdateInsertedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.UpdateDeletedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.UpdateAll(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettes)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.db_PSB_SetiamanahDataSettesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.Tdata_siswaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet.TdatatesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.Tdata_siswaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TdatatesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.UpdateAll(Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.DatatesDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Penerimaan_Siswa_Baru_SDN_SETIAMANAH.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
